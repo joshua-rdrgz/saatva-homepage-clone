@@ -1,0 +1,138 @@
+header
+  &__banner
+    &--memorial 
+    &--main
+  &__logo 
+    &-wrapper
+  &__extras
+    &-list 
+    &-item
+    &-link 
+  &__search-input
+
+
+sale-extended
+  &__container 
+  &__item 
+  &__text 
+
+
+herobox
+  (might not need anything here)
+
+
+mattress
+  &__container 
+  &__card 
+  &__title 
+  &__descriptor 
+  &__price
+    &--monthly 
+    &--total 
+    &--slashed
+  &__link
+
+
+benefits
+  &__card
+  &__icon 
+  &__title 
+  &__description 
+
+
+additions
+  &__card 
+  &__img 
+  &__title 
+  &__description 
+
+
+testimonial
+  &__icon 
+    &-container 
+  &__testimonial 
+    &-container 
+  &__title 
+  &__quote 
+
+
+footer
+  &__promos
+    &-container
+    &-email
+    &-socials
+    &-social
+      &--instagram
+      &--facebook 
+      &--twitter 
+      &--linkedin 
+      &--youtube
+  &-nav
+    &__container (groups navs)
+    &__wrapper (groups nav items)
+    &__title 
+    &__item 
+    &__link 
+    &__after 
+  &__logo 
+    &-container 
+    &--small 
+  &__legal 
+    &-container
+    &-copyright
+  &-legal-nav  
+    &__item 
+    &__link 
+
+
+heading
+  &--primary
+    &-main 
+    &-sub
+  &--secondary 
+  &--testimonial
+  &--footer-main
+  &--footer-sub
+  &--sale
+
+
+btn
+  &--primary 
+  &--testimonial
+  &--footer
+  &--sale
+    &-link
+  &--nav
+    &-red
+  &--sub-menu
+    &-top
+
+
+nav
+  &__list 
+  &__item
+
+sub-menu 
+  &__nav
+    &-list 
+    &-item 
+    &-title 
+  &__buttons 
+  &__content 
+    &-container 
+  &__heading 
+  &__sub-heading 
+  &__card
+    &s
+  &__image 
+  &__title 
+  &__description 
+
+
+
+
+
+
+
+
+  
