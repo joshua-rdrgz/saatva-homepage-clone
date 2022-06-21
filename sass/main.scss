@@ -1,17 +1,9 @@
-@use 'abstracts/mixins';
-@use 'abstracts/variables';
+@import "abstracts/mixins", "abstracts/variables";
 
-@use 'base/reset';
+@import "base/reset";
 
-@use 'components/buttons';
-@use 'components/heading';
-@use 'components/nav';
-@use 'components/sub-menu';
+@import "components/buttons", "components/heading", "components/nav",
+  "components/sub-menu";
 
-@use 'layout/additions';
-@use 'layout/benefits';
-@use 'layout/footer';
-@use 'layout/header';
-@use 'layout/mattress';
-@use 'layout/sale-extended';
-@use 'layout/testimonial';
+@import "layout/additions", "layout/benefits", "layout/footer", "layout/header",
+  "layout/mattress", "layout/sale-extended", "layout/testimonial";

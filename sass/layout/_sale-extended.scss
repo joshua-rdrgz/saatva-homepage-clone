@@ -1,0 +1,41 @@
+.sale-extended {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+  width: 100vw;
+  &__content {
+    display: flex;
+    gap: 3rem;
+  }
+  &__container {
+    list-style: none;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    &:first-child {
+      font-size: 0.85rem;
+      margin-bottom: -0.1rem;
+      text-transform: uppercase;
+    }
+  }
+  &__text {
+    background: $color-white2;
+    &-container {
+      display: flex;
+      flex: 1;
+      background-image: radial-gradient($color-brown-light1 0.7px, $color-white2 0);
+      background-size: 0.4rem 0.4rem;
+      background-repeat: repeat-x;
+      background-position: 0 100%;
+      height: 1.55rem;
+    }
+  }
+  &__amount {
+    background: $color-white2;
+  }
+}

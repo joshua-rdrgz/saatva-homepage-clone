@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Serif+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS IMPORT -->
     <link rel="stylesheet" href="./css/style.css" />
     <title>Saatva.com Homepage Clone</title>
   </head>
@@ -12,54 +20,57 @@
     <header class="header">
       <!-- /////// MEMORIAL DAY BANNER /////// -->
       <div class="header__banner--memorial">
-        <span
-          >MEMORIAL DAY SALE EXTENDED | GET UP TO $450 OFF | Ends Monday 6/6 |
-          <button class="btn--sale">Learn More</button></span
-        >
+        <div class="header__top-bar-container">
+          <span class="header__top-bar"
+            >MEMORIAL DAY SALE EXTENDED | GET UP TO $450 OFF | Ends Monday 6/6 |
+            <button class="btn--sale">Learn More</button></span
+          >
+        </div>
 
         <!-- ///// LEARN MORE SECTION ///// -->
         <section class="sale-extended">
           <h2 class="heading--sale">memorial day savings - extended!</h2>
 
-          <!-- /// LEFT SIDE /// -->
-          <ul class="sale-extended__container">
-            <li class="sale-extended__item">
-              <span>take</span>
-              <span>your total purchase of</span>
-            </li>
-            <li class="sale-extended__item">
-              <span class="sale-extended__text"> $200 Off </span>
-              <div class="sale-extended__text">$975 - $2,249</div>
-            </li>
-            <li class="sale-extended__item">
-              <span class="sale-extended__text"> $250 Off </span>
-              <div class="sale-extended__text">$2,250 - $2,499</div>
-            </li>
-            <li class="sale-extended__item">
-              <span class="sale-extended__text"> $300 Off </span>
-              <div class="sale-extended__text">$2,500 - $2,999</div>
-            </li>
-          </ul>
-
-          <!-- /// RIGHT SIDE /// -->
-          <ul class="sale-extended__container">
-            <li class="sale-extended__item">
-              <span>take</span>
-              <span>your total purchase of</span>
-            </li>
-            <li class="sale-extended__item">
-              <span class="sale-extended__text"> $350 Off </span>
-              <div class="sale-extended__text">$3,000 - $3,499</div>
-            </li>
-            <li class="sale-extended__item">
-              <span class="sale-extended__text"> $400 Off </span>
-              <div class="sale-extended__text">$3,500 - $3,999</div>
-            </li>
-            <li class="sale-extended__item">
-              <span class="sale-extended__text"> $450 Off </span>
-              <div class="sale-extended__text">$4,000 or more</div>
-            </li>
-          </ul>
+          <div class="sale-extended__content">
+            <!-- /// LEFT SIDE /// -->
+            <ul class="sale-extended__container">
+              <li class="sale-extended__item">
+                <span>take</span>
+                <span>your total purchase of</span>
+              </li>
+              <li class="sale-extended__item">
+                <div class="sale-extended__text-container"><span class="sale-extended__text"> $200 Off </span></div>
+                <div class="sale-extended__amount">$975 - $2,249</div>
+              </li>
+              <li class="sale-extended__item">
+                <div class="sale-extended__text-container"><span class="sale-extended__text"> $250 Off </span></div>
+                <div class="sale-extended__amount">$2,250 - $2,499</div>
+              </li>
+              <li class="sale-extended__item">
+                <div class="sale-extended__text-container"><span class="sale-extended__text"> $300 Off </span></div>
+                <div class="sale-extended__amount">$2,500 - $2,999</div>
+              </li>
+            </ul>
+            <!-- /// RIGHT SIDE /// -->
+            <ul class="sale-extended__container">
+              <li class="sale-extended__item">
+                <span>take</span>
+                <span>your total purchase of</span>
+              </li>
+              <li class="sale-extended__item">
+                <div class="sale-extended__text-container"><span class="sale-extended__text"> $350 Off </span></div>
+                <div class="sale-extended__amount">$3,000 - $3,499</div>
+              </li>
+              <li class="sale-extended__item">
+                <div class="sale-extended__text-container"><span class="sale-extended__text"> $400 Off </span></div>
+                <div class="sale-extended__amount">$3,500 - $3,999</div>
+              </li>
+              <li class="sale-extended__item">
+                <div class="sale-extended__text-container"><span class="sale-extended__text"> $450 Off </span></div>
+                <div class="sale-extended__amount">$4,000 or more</div>
+              </li>
+            </ul>
+          </div>
           <button class="btn btn--primary btn--sale">Shop Now</button>
           <a href="#" class="btn--sale-link">Price Match Guarantee</a>
         </section>
